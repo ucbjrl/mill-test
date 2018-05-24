@@ -3,5 +3,10 @@ This repository contains basic mill tests. At some point, these should be integr
 
 `myrepl` runs a simple echo repl under mill. Invoke it with:
 ```bash
-% mill myrepl.run
+% mill -i myrepl.run
+```
+
+The `sbt` equivalent is:
+```bash
+% sbt myrepl/run
 ```
